@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+header > figure {
+    margin: 0 100px;
+    padding: 50px 0;
+    height: 100%;
+    min-width: 500px;
+    position: relative;
+}
+
+header > figure > figcaption {
+    background: rgba(255, 255, 255, 0.829);
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 10px;
+    flex-direction: column;
+    font-size: 1.3rem;
+    top: 270px;
+    left: -50px;
+    height: 45vh;
+    width: 30%;
+}
+
+header > a:first-child {
+    background: rgba(216, 212, 212, 0.582);
+    height: 10vh;
+    width: 100px;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    z-index: 1;
+}
+
+header > a:nth-child(2) {
+    height: 10vh;
+    width: 100px;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+main {
+    margin-top: 100px;
+    height: 100vh;
+    background: purple;
+}
